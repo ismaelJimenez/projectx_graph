@@ -115,7 +115,7 @@ class RosGraph(Plugin):
         self.dot_to_qt = DotToQtGenerator()
 
         rp = rospkg.RosPack()
-        ui_file = os.path.join(rp.get_path('rqt_graph'), 'resource', 'RosGraph.ui')
+        ui_file = os.path.join(rp.get_path('projectx_graph'), 'resource', 'RosGraph.ui')
         loadUi(ui_file, self._widget, {'InteractiveGraphicsView': InteractiveGraphicsView})
         self._widget.setObjectName('RosGraphUi')
         if context.serial_number() > 1:

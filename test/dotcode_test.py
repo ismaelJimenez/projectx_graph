@@ -35,9 +35,9 @@ import unittest
 import rospkg
 
 import os
-from rqt_graph.dotcode import RosGraphDotcodeGenerator
+from projectx_graph.dotcode import RosGraphDotcodeGenerator
 
-PKG='rqt_graph'
+PKG='projectx_graph'
 
 class DotcodeTest(unittest.TestCase):
 

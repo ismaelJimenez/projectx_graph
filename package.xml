@@ -1,5 +1,5 @@
 <package>
-  <name>rqt_graph</name>
+  <name>projectx_graph</name>
   <version>0.4.9</version>
   <description>rqt_graph provides a GUI plugin for visualizing the ROS
       computation graph.<br />
